@@ -1,0 +1,28 @@
+lightedcube, pointedlight -> Original copies
+
+lightedcubecopy successfully manipulates the shader to change the amount that
+the surface is being shaded.
+You can only use an attribute if it is used in the main method
+lightedcubecopy also successfully uses a a_Normal reference correctly
+
+src -> Working code for lab4. Successfully gets a_Normal also implements val
+so you can change brightness of the cylinder.
+
+srccopy -> Copy of src. Successfully moves from 7 points to 10 points. Now
+need to see if it can use normal values. For some reason not able to use
+a_Normal values
+
+lightedcubecopy3 -> Normal vertex problem not shown in fact shows that it can
+isolate the individual coordinates. Can draw triangles with isolated normals.
+Isolated triangles can be successfully tested.
+
+lightedcubecopy4 -> Demonstrates how to draw squares given a set of vertices in
+the same way in srccopy and src.
+
+lightedcubecopy5 -> Goraud shading in vertices
+lightedcubecopy5_frag -> Phong shading with specular highlights
+
+lightedcubecopy6 -> Trying to fix the drawSquares so it can draw one square over
+another
+
+depthshading -> Implements depth shading 

@@ -1,0 +1,36 @@
+coordinates -> Gives the correct coordinates of the canvas
+
+perspective -> Shows how projection works and the difference between orthographic
+projection
+
+perspectivecopy -> Draws two rectangles with projection perspective
+
+perspectivecopy2 -> Attempting to draw a figure
+
+perspectivecopy3 -> Inserting cylinder
+
+pickface -> Shows how to pick a face of the object, demonstrates how to use
+readPixels and alpha picking
+
+pickfacecopy -> Testing out the functionality of readPixels. Works so far, want
+to test out with own model, which means rgba, and no faces, so need to first
+isolate shaders, change colors to 4
+
+pickfacecopy2 -> Shows how to use readPixels
+
+pickfacecopy3 -> Shows that you can use readPixels on multiple triangles. Also
+you can switch between ortho, VP and MVP matrices
+
+pickfacecopy4 -> Seeing how the animation works
+
+pickobject -> Picks a whole object that is different from alpha picking
+
+lightedcubecopy3 -> Shows how to draw triangle with the split up arrays
+
+lightedcubecopy5 -> Goraud shading
+
+lightedcubecopy7 -> Trying to insert projection matrix into existing code
+
+lightedcubecopy8 -> Fixed coordinates issue
+
+lightedcubecopy9 -> Attempting to implement gl.readPixels
